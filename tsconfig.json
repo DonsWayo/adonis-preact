@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "skipLibCheck": true,
+    "types": ["@adonisjs/core", "@types/jest"],
+    "jsx": "react"
+  },
+  "include": ["./src/**/*", "./providers/**/*"]
+}
