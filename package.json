@@ -1,6 +1,6 @@
 {
   "name": "adonis-preact",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Preact provider for AdonisJS 5",
   "main": "./lib/providers/PreactProvider.js",
   "types": "./lib/src/types.d.ts",
@@ -26,7 +26,7 @@
     "check-types": "tsc --noEmit",
     "eslint": "eslint providers src",
     "eslint-fix": "npm run eslint -- --fix",
-    "prepublishOnly": "npm run tsc",
+    "prepublishOnly": "npm run build",
     "test-only": "jest",
     "test-coverage": "jest --coverage",
     "test": "npm run test-only && npm run eslint && npm run check-types",
